@@ -1,0 +1,39 @@
+{
+  "$comment": "手工精选条目模板。复制为 <连接器id>.json 填写后即参与合并；published=false 时条目保留但不出现在货架上。禁止在此文件放置任何真实密钥。",
+  "schemaVersion": 1,
+  "id": "my-example-connector",
+  "name": "示例连接器",
+  "vendor": "厂商名",
+  "icon": "🧩",
+  "category": "其他",
+  "summary": "一句话简介（货架卡片副标题）",
+  "description": "完整说明：用途、能力边界、鉴权方式、注意事项。",
+  "tags": ["示例", "自建"],
+  "published": false,
+  "featured": false,
+  "homepage": "https://example.com/docs",
+  "probeStatus": "unverified",
+  "auth": {
+    "mode": "api-key",
+    "credentialDescription": "凭据仅保存在 DSH 本机；说明从哪里申请。",
+    "credentialHelpLabel": "获取凭据的说明页标题",
+    "credentialFields": [
+      {
+        "key": "apiKey",
+        "label": "API Key",
+        "placeholder": "请输入 API Key",
+        "required": true,
+        "secret": true
+      }
+    ]
+  },
+  "servers": [
+    {
+      "serverKey": "main",
+      "serverName": "my-example-connector",
+      "url": "https://example.com/mcp",
+      "transport": "streamable-http",
+      "headers": { "Accept": "application/json, text/event-stream" }
+    }
+  ]
+}
