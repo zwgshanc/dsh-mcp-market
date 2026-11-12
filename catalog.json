@@ -8616,9 +8616,6 @@
       "run",
       "./server.py"
      ],
-     "env": {
-      "UNSPLASH_ACCESS_KEY": ""
-     },
      "credentialBindings": {
       "UNSPLASH_ACCESS_KEY": "unsplashACCESSKEY"
      }
@@ -9633,7 +9630,6 @@
      ],
      "env": {
       "GOOGLE_CLIENT_EMAIL": "your-service-account@project.iam.gserviceaccount.com",
-      "GOOGLE_PRIVATE_KEY": "",
       "GA_PROPERTY_ID": "your-ga4-property-id"
      },
      "credentialBindings": {
@@ -12597,7 +12593,6 @@
       "UNOMI_BASE_URL": "http://your-unomi-server:8181",
       "UNOMI_USERNAME": "your-username",
       "UNOMI_PROFILE_ID": "your-profile-id",
-      "UNOMI_KEY": "",
       "UNOMI_EMAIL": "your-email@example.com",
       "UNOMI_SOURCE_ID": "claude-desktop"
      },
@@ -13556,8 +13551,7 @@
       "/ABSOLUTE/PATH/TO/YOUR/PROJECT"
      ],
      "env": {
-      "RPC_URL": "your_solana_rpc_url_here",
-      "SOLANA_PRIVATE_KEY": ""
+      "RPC_URL": "your_solana_rpc_url_here"
      },
      "credentialBindings": {
       "SOLANA_PRIVATE_KEY": "solanaPRIVATEKEY"
@@ -13903,7 +13897,6 @@
       "base-mcp@latest"
      ],
      "env": {
-      "COINBASE_API_PRIVATE_KEY": "",
       "SEED_PHRASE": "your seed phrase here",
       "COINBASE_PROJECT_ID": "your_project_id",
       "PINATA_JWT": "your_pinata_jwt",
@@ -14206,10 +14199,6 @@
      "args": [
       "path/to/token-minter-mcp/server/index.js"
      ],
-     "env": {
-      "INFURA_KEY": "",
-      "PRIVATE_KEY": ""
-     },
      "credentialBindings": {
       "INFURA_KEY": "infuraKEY",
       "PRIVATE_KEY": "privateKEY"
@@ -14411,10 +14400,6 @@
      "args": [
       "path/to/uniswap-trader-mcp/server/index.js"
      ],
-     "env": {
-      "INFURA_KEY": "",
-      "WALLET_PRIVATE_KEY": ""
-     },
      "credentialBindings": {
       "INFURA_KEY": "infuraKEY",
       "WALLET_PRIVATE_KEY": "walletPRIVATEKEY"
@@ -15216,10 +15201,6 @@
      "serverName": "mcp-dingdingbot-server",
      "command": "mcp-dingdingbot-server",
      "transport": "stdio",
-     "env": {
-      "DINGDING_BOT_WEBHOOK_KEY": "",
-      "DINGDING_BOT_SIGN_KEY": ""
-     },
      "credentialBindings": {
       "DINGDING_BOT_WEBHOOK_KEY": "dingdingBOTWEBHOOKKEY",
       "DINGDING_BOT_SIGN_KEY": "dingdingBOTSIGNKEY"
@@ -17026,9 +17007,6 @@
       "PATH/TO/comidp-mcp/src/virtual environment python",
       "PATH/TO/comidp-mcp/src/comidp_tools.py"
      ],
-     "env": {
-      "IDPKEY": ""
-     },
      "credentialBindings": {
       "IDPKEY": "idpkey"
      }
@@ -18987,9 +18965,6 @@
       "-y",
       "@kazuph/mcp-pocket"
      ],
-     "env": {
-      "POCKET_CONSUMER_KEY": ""
-     },
      "credentialBindings": {
       "POCKET_CONSUMER_KEY": "pocketCONSUMERKEY",
       "POCKET_ACCESS_TOKEN": "pocketACCESSTOKEN"
@@ -23363,7 +23338,6 @@
       "<absolute-path>/build/index.js"
      ],
      "env": {
-      "LANGFUSE_PUBLIC_KEY": "",
       "LANGFUSE_BASEURL": "https://cloud.langfuse.com"
      },
      "credentialBindings": {
@@ -24667,10 +24641,7 @@
       "@gluneau/hive-mcp-server"
      ],
      "env": {
-      "HIVE_USERNAME": "your-hive-username",
-      "HIVE_POSTING_KEY": "",
-      "HIVE_ACTIVE_KEY": "",
-      "HIVE_MEMO_KEY": ""
+      "HIVE_USERNAME": "your-hive-username"
      },
      "credentialBindings": {
       "HIVE_POSTING_KEY": "hivePOSTINGKEY",
@@ -25106,7 +25077,6 @@
       "@pyroprompts/any-chat-completions-mcp"
      ],
      "env": {
-      "AI_CHAT_KEY": "",
       "AI_CHAT_NAME": "OpenAI",
       "AI_CHAT_MODEL": "gpt-4o",
       "AI_CHAT_BASE_URL": "https://api.openai.com/v1"
@@ -25195,9 +25165,6 @@
       "-y",
       "mcprouter"
      ],
-     "env": {
-      "SERVER_KEY": ""
-     },
      "credentialBindings": {
       "SERVER_KEY": "serverKEY"
      }
@@ -26421,9 +26388,6 @@
       "-y",
       "@fireflyai/firefly-mcp"
      ],
-     "env": {
-      "FIREFLY_ACCESS_KEY": ""
-     },
      "credentialBindings": {
       "FIREFLY_ACCESS_KEY": "fireflyACCESSKEY",
       "FIREFLY_SECRET_KEY": "fireflySECRETKEY"
@@ -27941,8 +27905,7 @@
       "path/to/mcp-codepipeline-server/dist/index.js"
      ],
      "env": {
-      "AWS_REGION": "us-east-1",
-      "AWS_ACCESS_KEY_ID": ""
+      "AWS_REGION": "us-east-1"
      },
      "credentialBindings": {
       "AWS_ACCESS_KEY_ID": "awsACCESSKEYID",
@@ -28488,10 +28451,6 @@
       "-y",
       "keycloak-model-context-protocol"
      ],
-     "env": {
-      "KEYCLOAK_URL": "",
-      "KEYCLOAK_ADMIN": ""
-     },
      "credentialBindings": {
       "KEYCLOAK_URL": "keycloakURL",
       "KEYCLOAK_ADMIN": "keycloakADMIN",
@@ -29263,7 +29222,6 @@
      "env": {
       "SSH_HOST": "your.remote.host",
       "SSH_USER": "your_ssh_user",
-      "SSH_PRIVATE_KEY_PATH": "",
       "RAILS_WORKING_DIR": "/path/to/rails/app/root",
       "PROJECT_NAME_AS_CONTEXT": "Name that shows up in tool descriptions to help the LLM describe what kind of Rails project we're working with.",
       "CODE_SNIPPET_FILE_DIRECTORY": "/path/to/store/code/snippets/locally"
@@ -29444,8 +29402,7 @@
       "clickup-mcp-server"
      ],
      "env": {
-      "CLICKUP_TEAM_ID": "your-team-id",
-      "CLICKUP_MCP_LICENSE_KEY": ""
+      "CLICKUP_TEAM_ID": "your-team-id"
      },
      "credentialBindings": {
       "CLICKUP_API_KEY": "clickupAPIKEY",
